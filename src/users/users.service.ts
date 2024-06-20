@@ -14,7 +14,7 @@ export class UsersService {
     return this.repo.save(user);
   }
 
-  async findOne(id: number) {
+  findOne(id: number) {
     if (!id) {
       return null;
     }
