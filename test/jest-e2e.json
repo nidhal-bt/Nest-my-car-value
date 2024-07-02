@@ -6,5 +6,6 @@
     "^.+\\.(t|j)s$": "ts-jest"
   },
   "rootDir": "./",
-  "modulePaths": ["<rootDir>/../", "node_modules"]
+  "modulePaths": ["<rootDir>/../", "node_modules"],
+  "setupFilesAfterEnv": ["<rootDir>/setup.ts"]
 }
