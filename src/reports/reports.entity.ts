@@ -1,7 +1,6 @@
 import { User } from 'src/users/users.entity';
 import { Column, Entity, ManyToOne, PrimaryGeneratedColumn } from 'typeorm';
 
-console.log('User', User);
 @Entity()
 export class Report {
   @PrimaryGeneratedColumn()

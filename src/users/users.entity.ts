@@ -29,12 +29,12 @@ export class User {
 
   @AfterInsert()
   logInsert() {
-    console.log('insert user with id', this.id);
+    // console.log('insert user with id', this.id);
   }
 
   @AfterUpdate()
   logUpdate() {
-    console.log('update user with id', this.id);
+    // console.log('update user with id', this.id);
   }
 
   @AfterRemove()
