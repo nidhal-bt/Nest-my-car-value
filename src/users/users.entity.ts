@@ -23,6 +23,8 @@ export class User {
 
   @Column({ default: false })
   admin: boolean;
+  // @Column({ default: false })
+  // isAdmin: boolean;
 
   @OneToMany(() => Report, (report) => report.user)
   reports: Report[];
