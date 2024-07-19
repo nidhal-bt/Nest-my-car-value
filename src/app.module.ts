@@ -11,7 +11,6 @@ import { ConfigModule, ConfigService } from '@nestjs/config';
 import { dataSourceOptions } from 'db/data-source';
 const cookieSession = require('cookie-session');
 
-console.log('dataSourceOptions', dataSourceOptions);
 @Module({
   imports: [
     ConfigModule.forRoot({
